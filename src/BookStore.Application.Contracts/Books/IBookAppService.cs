@@ -16,7 +16,7 @@ namespace BookStore.Books
         CreateUpdateBookDto> //Used to create/update a book
     {
 
-
+        Task<ListResultDto<AuthorLookupDto>> GetAuthorLookupAsync();
 
     }
 }
